@@ -8,7 +8,7 @@
 
 **WRO Future Engineers** is a category within the **World Robot Olympiad (WRO)**, an international robotics competition. It is a self-driving car challenge where students aged 14 to 19 design, build, and program a model car equipped with electromechanical components — such as sensors, cameras, and microcontrollers — to autonomously navigate a track and avoid obstacles, without any remote control or human intervention.
 
-### 🏁 Challenges
+###  Challenges
 
 The competition consists of two main challenges:
 
