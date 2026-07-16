@@ -1,14 +1,16 @@
 <div align="center">
 
-#  WRO Future Engineers
+# WRO Future Engineers
 
 </div>
 
-##  About the Competition
+
+<a id="challenge"></a>
+##  About the Competition (The Challenge)
 
 **WRO Future Engineers** is a category within the **World Robot Olympiad (WRO)**, an international robotics competition. It is a self-driving car challenge where students aged 14 to 19 design, build, and program a model car equipped with electromechanical components — such as sensors, cameras, and microcontrollers — to autonomously navigate a track and avoid obstacles, without any remote control or human intervention.
 
-###  Challenges
+### Challenges
 
 The competition consists of two main challenges:
 
@@ -17,7 +19,7 @@ The competition consists of two main challenges:
 | **Open Challenge** | The car completes a set number of laps around the track fully autonomously. |
 | **Obstacle Challenge** | The car must avoid colored pillars (red and green) and perform additional tasks such as parallel parking. |
 
-###  Evaluation Criteria
+### Evaluation Criteria
 
 Teams are evaluated on:
 -  Vehicle performance on the track
@@ -25,9 +27,18 @@ Teams are evaluated on:
 -  Judges' interview (explaining design choices and problem-solving approach)
 
 ---
+
+## Table of Contents
+- [About the Competition (The Challenge)](#challenge)
+- [Team Members](#team)
+- [Bill of Materials](#code-for-each-component)
+- [Power Consumption](#power-consumption)
+- [License](#license)
+---
+<a id="team"></a>
 <div align="center">
 
-# Team Members
+#  Team Members
 
 </div>
 
@@ -61,11 +72,26 @@ Teams are evaluated on:
 
 ---
 
+
+
+<p align="center">
+  <!-- Add your circuit/wiring diagram here, e.g.: -->
+  <!-- <img src="other/circuit-diagram.png" width="600" alt="Circuit Diagram"> -->
+</p>
+
+---
+
+<a id="code-for-each-component"></a>
 <div align="center">
 
-#  Bill of Materials
 
-</div>
+
+
+
+
+
+##  Bill of Materials
+
 <table width="100%">
     <thead>
         <tr>
@@ -125,11 +151,8 @@ Teams are evaluated on:
 
 ---
 
-<div align="center">
+## Power Consumption
 
-#  Power Consumption
-
-</div>
 <table width="100%">
     <thead>
         <tr>
@@ -184,3 +207,37 @@ Teams are evaluated on:
         </tr>
     </tbody>
 </table>
+
+---
+
+
+<a id="license"></a>
+<div align="center">
+
+#  License
+
+</div>
+
+
+```
+Copyright (c) 2026 HASEM
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
