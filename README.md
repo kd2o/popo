@@ -4,7 +4,6 @@
 
 </div>
 
-
 <a id="challenge"></a>
 ##  About the Competition (The Challenge)
 
@@ -31,10 +30,13 @@ Teams are evaluated on:
 ## Table of Contents
 - [About the Competition (The Challenge)](#challenge)
 - [Team Members](#team)
-- [Bill of Materials](#code-for-each-component)
+- [Bill of Materials](#bom)
 - [Power Consumption](#power-consumption)
+- [3D Printed Components](#robot-design)
 - [License](#license)
+
 ---
+
 <a id="team"></a>
 <div align="center">
 
@@ -62,35 +64,22 @@ Teams are evaluated on:
 
 <hr>
 
-<h3>Yazan Hindia</h3>
-<img src="other/Screenshot 2026-05-17 011219.gif" width="200" align="right" alt="Yazan Hindia">
+<h3>Yazan Hindiyeh</h3>
+<img src="other/Screenshot 2026-05-17 011219.gif" width="200" align="right" alt="Yazan Hindiyeh">
 <p><b>Age:</b> 14</p>
 <p><b>Email:</b> yazanhindia@gmail.com</p>
 <p><b>School:</b> Mahmoud Darwish School</p>
-<p><b>GitHub:</b> <a href="https://github.com/othmanjaber">othmanjaber</a></p>
+<p><b>GitHub:</b> <a href="https://github.com/rayanrinoo">rayanrinoo</a></p>
 <br clear="right"/>
 
 ---
 
-
-
-<p align="center">
-  <!-- Add your circuit/wiring diagram here, e.g.: -->
-  <!-- <img src="other/circuit-diagram.png" width="600" alt="Circuit Diagram"> -->
-</p>
-
----
-
-<a id="code-for-each-component"></a>
+<a id="bom"></a>
 <div align="center">
 
-
-
-
-
-
-
 ##  Bill of Materials
+
+</div>
 
 <table width="100%">
     <thead>
@@ -103,42 +92,42 @@ Teams are evaluated on:
     <tbody>
         <tr>
             <td><b>Raspberry Pi 5 (8GB)</b></td>
-            <td align="center"><img src="other/raspberry-pi-5-2gb.webp" alt="Raspberry Pi 5" width="180"></td>
+            <td align="center"><img src="other/use/raspberry-pi-5-2gb.webp" alt="Raspberry Pi 5" width="180"></td>
             <td>Main processing unit of the robot, handles high-level control, vision processing, and communication with other components.</td>
         </tr>
         <tr>
             <td><b>Raspberry Pi 5 Cooler</b></td>
-            <td align="center"><img src="other/images (2).jpg" alt="Active Cooler" width="180"></td>
+            <td align="center"><img src="other/use/images (2).jpg" alt="Active Cooler" width="180"></td>
             <td>Active cooling fan and heatsink to keep the Raspberry Pi 5 running at safe temperatures under heavy load.</td>
         </tr>
         <tr>
             <td><b>Arduino Uno</b></td>
-            <td align="center"><img src="other/515b4656ce395f8a38000000.png" alt="Arduino Uno R3" width="180"></td>
+            <td align="center"><img src="other/use/515b4656ce395f8a38000000.png" alt="Arduino Uno R3" width="180"></td>
             <td>Microcontroller board used for low-level tasks such as motor control and reading sensor data in real time.</td>
         </tr>
         <tr>
             <td><b>Byte Robot Chassis Kit</b></td>
-            <td align="center"><img src="other/S03e04229601a4569920aa8a3ce73634eD.jpg_960x960.avif" alt="Robot Chassis" width="180"></td>
+            <td align="center"><img src="other/use/S03e04229601a4569920aa8a3ce73634eD.jpg_960x960.avif" alt="Robot Chassis" width="180"></td>
             <td>Structural frame of the robot that holds all electronic and mechanical components together.</td>
         </tr>
         <tr>
             <td><b>GA25-370 DC Motor with Encoder</b></td>
-            <td align="center"><img src="other/images (1).jpg" alt="DC Motor with Encoder" width="180"></td>
+            <td align="center"><img src="other/use/images (1).jpg" alt="DC Motor with Encoder" width="180"></td>
             <td>Geared DC motor with built-in encoder, used to drive the wheels and measure rotation for precise movement.</td>
         </tr>
         <tr>
             <td><b>US-100 Ultrasonic Sensor</b></td>
-            <td align="center"><img src="other/US-100-1.jpg" alt="Ultrasonic Sensor" width="180"></td>
+            <td align="center"><img src="other/use/US-100-1.jpg" alt="Ultrasonic Sensor" width="180"></td>
             <td>Ultrasonic distance sensor used for obstacle detection and avoidance.</td>
         </tr>
         <tr>
             <td><b>Pixy2</b></td>
-            <td align="center"><img src="other/71F2k2oBIfS.jpg" alt="Vision Sensor" width="180"></td>
+            <td align="center"><img src="other/use/71F2k2oBIfS.jpg" alt="Vision Sensor" width="180"></td>
             <td>Smart vision sensor capable of color and object detection to help the robot identify targets.</td>
         </tr>
         <tr>
             <td><b>BNO080</b></td>
-            <td align="center"><img src="other/images.jpg" alt="IMU Sensor" width="180"></td>
+            <td align="center"><img src="other//images.jpg" alt="IMU Sensor" width="180"></td>
             <td>9-axis IMU sensor providing orientation, rotation, and motion data for stabilization and navigation.</td>
         </tr>
         <tr>
@@ -151,7 +140,12 @@ Teams are evaluated on:
 
 ---
 
-## Power Consumption
+<a id="power-consumption"></a>
+<div align="center">
+
+##  Power Consumption
+
+</div>
 
 <table width="100%">
     <thead>
@@ -201,7 +195,7 @@ Teams are evaluated on:
         </tr>
         <tr>
             <td>BNO080 IMU</td>
-            <td align="center">3.3 V</td>
+           <td align="center">3.3 V</td>
             <td align="center">~15 mA</td>
             <td align="center">~0.05 W</td>
         </tr>
@@ -210,6 +204,41 @@ Teams are evaluated on:
 
 ---
 
+<!-- Robot Design & 3D Printing Section -->
+<section id="robot-design">
+<div align="center">
+
+## 3D Printed Components
+
+</div>
+
+<h2>Main Robot Design (Modified from Base Kit)</h2>
+<div class="design-preview">
+<img src="other/3d/لقطة شاشة 2026-07-18 030156.png" width="600" alt="Main Robot Assembly Overview">
+</div>
+
+<p>The updated robot chassis integrates custom 3D-printed brackets and enclosures designed to mount the essential processing and sensing hardware securely:</p>
+
+<ol>
+    <li>
+        <h3>Raspberry Pi 5 Enclosure</h3>
+        <img src="other/3d/لقطة شاشة 2026-07-18 025954.png" width="600" alt="Raspberry Pi 5 3D Case">
+        <p>A specialized, protective case tailored for the Raspberry Pi 5. It ensures stable housing on the chassis while maintaining optimal passive ventilation and full access to the GPIO headers and peripheral ports.</p>
+    </li>
+    <li>
+        <h3>US-100 Ultrasonic Sensor Mount</h3>
+        <img src="other/3d/لقطة شاشة 2026-07-18 025702.png" width="600" alt="US-100 Ultrasonic Sensor Bracket">
+        <p>A custom-dimensioned front bracket built specifically to secure the US-100 ultrasonic sensor. This mount isolates the sensor from chassis vibrations and positions it at an optimal angle for precise obstacle distance mapping.</p>
+    </li>
+    <li>
+        <h3>Pixy2 Camera Enclosure</h3>
+        <img src="other/3d/لقطة شاشة 2026-07-18 025622.png" width="600" alt="Pixy2 Camera Case">
+        <p>A dedicated mounting case for the Pixy2 smart vision sensor. It provides robust protection for the camera board while locking its field of view forward to ensure reliable color-signature tracking and line detection.</p>
+    </li>
+</ol>
+</section>
+
+---
 
 <a id="license"></a>
 <div align="center">
