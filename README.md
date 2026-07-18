@@ -1,8 +1,10 @@
 <div align="center">
 
-# WRO Future Engineers
 
-### HASEM Team
+
+# HASEM Team
+
+### WRO Future Engineers
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 [![Competition](https://img.shields.io/badge/Competition-WRO%20Future%20Engineers-orange)](#challenge)
